@@ -15,7 +15,7 @@ export default function Services() {
 
     useEffect(() => {
         const loadDoctors = async () => {
-            await axios.get("https://dog.ceo/api/breeds/image/r")
+            await axios.get("/src/public/doctors.json")
                 .then(function (response) {
                     setDoctors(response.data.doctors);
                     setIsLoading(false);
