@@ -5,7 +5,7 @@ En esta actividad, se implementa el consumo de una API para obtener y mostrar da
 ### Implementación de Peticiones con useEffect y useState
 Se simula el consumo de una APi (archivos json) mediante el uso de useEffect y useState para obtener todos los datos del sitio web del hospital.
 ### Uso de Fetch API o Axios para el Consumo de la API
-Para consumir las APis simuladas a lo largo de la aplicación, se implementa el usi de Axios, su elección se debe, a que al ser una aplicación escalable a futuro, se pueden requerir necesidades mas avanzadas para manejar la información que fetch no proporciona, algunas de las ventajas de axios en lo cual se basa su eleección son las siguientes:
+Para consumir las APis simuladas a lo largo de la aplicación, se implementa el usi de Axios, su elección se debe, a que al ser una aplicación escalable a futuro, se pueden requerir necesidades mas avanzadas para manejar la información que fetch no proporciona, algunas de las ventajas de axios en lo cual se basa su elección de uso para este proyecto, son las siguientes:
  - Manejo automatico de errores
  - Sintaxis mas amigable, facilitando su implementación a lo largo del codigo.
  - Permite establecer un tiempo de espera de la respuesta y también la capacidad de cancelar peticiones.
